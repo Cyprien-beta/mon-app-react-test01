@@ -1,4 +1,13 @@
-import { useState, useEffect } from "react";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './index.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
 
 const BOOKS = [
   {a:"Roald Dahl",t:"Charlie et la chocolaterie",n:8,t1:"Roman fantasy",t2:"Roman d'aventure",p:"Royaume-Uni",m:"Charlie Bucket, enfant pauvre, gagne un ticket d'or lui permettant de visiter la chocolaterie magique de Willy Wonka. Un monde fantastique et foisonnant."},
